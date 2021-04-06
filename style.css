@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Zilla+Slab+Highlight&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Kaushan Script", cursive; */
+  background: url("img/pinkcity.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  color: #000;
+  font-size: 2rem;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  /* background: rgb(0, 0, 0, 0.5); */
+  background: rgba(255, 0, 200, 0.2);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  margin: 10px 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  transition: all 0.2s ease-in;
+}
+
+nav ul li a:hover {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.showcase-info {
+  height: 100vh;
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.showcase-info .left {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: flex-start;
+  text-align: left;
+  background: rgb(238, 255, 0, 0.2);
+}
+
+.showcase-info .right {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+
+.showcase-info h1 {
+  font-family: "Kaushan Script", cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 0 2rem;
+  /* background: rgba(255, 255, 255, 0.4); */
+}
+
+.showcase-info p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 2rem;
+  /* background: rgba(255, 255, 255, 0.4); */
+}
+
+#about {
+  height: 100vh;
+  display: flex;
+}
+
+#about .left {
+  width: 50%;
+  height: 100vh;
+}
+
+#about .left h1 {
+  font-size: 3rem;
+  margin-left: 17rem;
+}
+
+#about .right {
+  height: 100vh;
+  width: 50%;
+  background: rgba(0, 195, 255, 0.2);
+}
