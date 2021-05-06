@@ -70,7 +70,7 @@ ul{
 .splash-info p {
   font-size: 1.2rem;
   margin: 3rem 0;
-  padding: 2rem;
+  padding: 3rem;
   text-align: justify;
 }
 
@@ -85,14 +85,18 @@ ul{
 }
 
 .btn-more{
-  
+  border: 2px solid #66b2b2;
   transition: all 0.2s ease-in;
   color: #008080;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  font-size: 1.1rem;
 }
 
 .btn-more:hover{
   opacity: 0.9;
   color: #444;
+  border-color:  #444;
 }
 
 /* Nav */
